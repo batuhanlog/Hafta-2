@@ -37,6 +37,15 @@ public class Ring {
         }
     }
 
+    private boolean isWin() {
+
+        return false;
+    }
+
+    private void printScore() {
+        System.out.println("Tebrikfgfffler Skorun ");
+    }
+
     public boolean checkWeight() {
         return (f1.weight >= minWeight && f1.weight <= maxWeight) && (f2.weight >= minWeight && f2.weight <= maxWeight);
     }
